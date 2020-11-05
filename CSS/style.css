@@ -1,0 +1,75 @@
+@font-face 
+{
+    font-family: 'Casio';
+    src: url(Font/Casio_FX_9860GII/casio-fx-9860gii.ttf);
+}
+
+@font-face 
+{
+    font-family: 'Monaco';
+    src: url(Font/Monaco/Monaco.ttf);
+}
+
+@font-face 
+{
+    font-family: 'Calculator';
+    src: url(Font/Calculator/Calculator.ttf);
+}
+
+body{background-color: #000; font-size: 10px; color: #daba51;; font-family: 'Calculator';}
+
+td
+{
+    border: #daba51;;
+    border-style: outset;
+}
+#display
+{
+    background-color: #836244;
+    border: #daba51;;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+label{font-size: 21pt;}
+
+#byLabel
+{
+    text-align: center;
+    font-size: 11px;
+    background-color: #836244;
+    font-family: 'Monaco';
+    color: #daba51;
+}
+
+#byTd
+{
+    text-align: center;
+    font-size: 10px;
+    background-color: #836244;
+}
+
+button
+{
+    background-color: #836244;
+    font-family: 'Monaco';
+    color: #daba51;
+    font-size: 18pt;
+    width: 45px;
+    height: 45px;
+    border: #d47037;
+    border-style: outset;
+    text-align: center;
+}
+
+#Button0
+{
+    width: 98px;
+    height: 45px;
+}
+
+#ButtonEnter
+{
+    width: 45px;
+    height: 98px;
+}
